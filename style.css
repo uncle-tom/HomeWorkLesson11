@@ -1,0 +1,12 @@
+.circle {
+	background-color: red;
+	width: 360px;
+	height: 360px;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+}
+
+.no-svg .circle {
+	
+	background-color: blue;
+}
