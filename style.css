@@ -4,9 +4,18 @@
 	height: 360px;
 	-webkit-border-radius: 50%;
 	        border-radius: 50%;
+	-webkit-transition: fill 1s;
+	-o-transition: fill 1s;
+	transition: fill 1s;
 }
 
 .no-svg .circle {
-	
-	background-color: blue;
+	background-color: black;
+}
+
+.circle:hover {
+	fill: red;
+	-webkit-transition: fill 1s;
+	-o-transition: fill 1s;
+	transition: fill 1s;
 }
